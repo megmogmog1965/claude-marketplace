@@ -1,0 +1,13 @@
+{
+  "name": "megmogmog1965/claude-marketplace",
+  "owner": {
+    "name": "Yusuke Kawatsu"
+  },
+  "plugins": [
+    {
+      "name": "my-first-plugin",
+      "source": "./my-first-plugin",
+      "description": "My first test plugin"
+    }
+  ]
+}
