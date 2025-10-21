@@ -1,0 +1,8 @@
+{
+  "name": "nextjs-sqlite",
+  "description": "A plugin for Next.js + SQLite development.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yusuke Kawatsu"
+  }
+}

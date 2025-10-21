@@ -5,8 +5,8 @@
   },
   "plugins": [
     {
-      "name": "my-first-plugin",
-      "source": "./my-first-plugin",
+      "name": "nextjs-sqlite",
+      "source": "./nextjs-sqlite",
       "description": "My first test plugin"
     }
   ]
