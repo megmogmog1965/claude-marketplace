@@ -39,7 +39,13 @@ my-first-plugin/
 
 - /init
     - 本プラグインを導入したプロジェクトに、次の Claude Code 向けのファイルを導入します。
-        - CLAUDE.md
+        - CLAUDE.md（docs/*.md へのリンク参照あり）
+        - docs/*.md
+            - software-development-lifecycle.md（開発プロセス・手順の指定）
+            - coding-rule.md（コーディングルール）
+            - architecture.md（利用技術・アーキテクチャ指定）
+            - test-rule.md（ユニットテストコード生成のルール）
+            - ui-design-rule.md（フロントエンドコード、UIデザインのルール）
 - /req
     - 要件定義書の作成を開始する Slash command です。
 - /spec
