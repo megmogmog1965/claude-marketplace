@@ -25,24 +25,18 @@ This directory contains comprehensive documentation for development with Claude 
    - Use design tokens for all styling (never hardcode colors, spacing, etc.)
    - Reference semantic tokens: `bg-primary`, `text-sm`, `p-4`, `rounded-lg`
 
-## Development Commands
+## Available Slash Commands
 
 - `/req` - Create requirements document
 - `/spec <req-id>` - Create implementation specification
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run test` - Run unit tests
-- `npm run lint` - Run linter
 
-## Architecture Overview
+## Claude Code Integration
 
-This is a Next.js application with:
-- Next.js 15+ with App Router
-- TypeScript for type safety
-- SQLite database with Prisma ORM
-- **Shadcn UI** for components (Priority #1)
-- Tailwind CSS for styling
-- Vitest for unit testing
-- ESLint for code quality
+This project uses Claude Code's subagents and skills for automated development tasks:
+- **lint subagent** - Automatically runs after code changes via hooks
+- **build subagent** - Verifies TypeScript compilation
+- **test subagent** - Runs unit tests and fixes failures
+- **update-prisma-schema skill** - Manages database schema changes
+- **run_dev skill** - Starts development server for verification
 
-For detailed information, see [Architecture](docs/architecture.md).
+For detailed workflow, see [Software Development Lifecycle](docs/software-development-lifecycle.md).

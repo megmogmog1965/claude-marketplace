@@ -97,9 +97,8 @@ New files to be created
 Execute the implementation according to the specification:
 
 1. **Database Changes**
-   - Update `prisma/schema.prisma`
-   - Run migrations: `npx prisma migrate dev`
-   - Generate Prisma Client: `npx prisma generate`
+   - Use the `update-prisma-schema` skill to modify database schema
+   - The skill will automatically update `prisma/schema.prisma`, run migrations, and regenerate Prisma Client
 
 2. **Backend Implementation**
    - Create/update API routes in `app/api/`
@@ -139,7 +138,7 @@ Write and run tests for all new code:
 1. **Unit Tests**
    - Test individual functions and components
    - Follow test rules in [Test Rules](test-rule.md)
-   - Run: `npm run test`
+   - Use the `test` subagent to run tests and fix any failures
 
 2. **Integration Tests**
    - Test API routes
@@ -147,16 +146,16 @@ Write and run tests for all new code:
    - Verify end-to-end workflows
 
 3. **Manual Testing**
-   - Test in development server: `npm run dev`
+   - Use the `run_dev` skill to start the development server for verification
    - Verify all acceptance criteria
    - Check edge cases and error handling
 
 ## 5. Review and Deployment
 
 1. **Code Review**
-   - Run linter: `npm run lint`
-   - Check for type errors: `npm run build`
-   - Verify all tests pass
+   - Use the `lint` subagent to check code quality
+   - Use the `build` subagent to verify TypeScript compilation
+   - Verify all tests pass with the `test` subagent
 
 2. **Documentation**
    - Update README if needed
@@ -198,8 +197,8 @@ This plugin provides agent skills that automate parts of this workflow:
 
 # 4. Write tests (AFTER implementation is complete)
 # Write unit tests for all implemented code
-npm run test
-npm run build
+# Claude will use test subagent to run tests
+# Claude will use build subagent to verify compilation
 
 # 5. Review
 # Verify implementation meets requirements
