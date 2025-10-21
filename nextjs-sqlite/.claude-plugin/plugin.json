@@ -13,12 +13,5 @@
     "prisma",
     "typescript",
     "react"
-  ],
-  "commands": [
-    {
-      "name": "init",
-      "description": "Initialize Next.js + SQLite project with Claude Code configuration files",
-      "file": "commands/init.md"
-    }
   ]
 }
