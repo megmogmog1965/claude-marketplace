@@ -1,8 +1,24 @@
 {
   "name": "nextjs-sqlite",
-  "description": "A plugin for Next.js + SQLite development.",
-  "version": "1.0.0",
+  "description": "Claude Code plugin for Next.js + SQLite architecture development",
+  "version": "0.1.0",
   "author": {
     "name": "Yusuke Kawatsu"
-  }
+  },
+  "repository": "https://github.com/megmogmog1965/claude-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "sqlite",
+    "prisma",
+    "typescript",
+    "react"
+  ],
+  "commands": [
+    {
+      "name": "init",
+      "description": "Initialize Next.js + SQLite project with Claude Code configuration files",
+      "file": "commands/init.md"
+    }
+  ]
 }
