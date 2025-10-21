@@ -19,7 +19,7 @@ Next.js + SQLite アーキテクチャでの開発を支援する Claude Code �
 本プラグインでは、後述する `Slash Commands`, `Subagents`, `Agent Skills`, `Hooks`, `MCP Servers` によって、Next.js + SQLite アーキテクチャのWebアプリケーション開発を支援する。
 
 ```
-my-first-plugin/
+nextjs-sqlite/
 ├── .claude-plugin/
 │   └── plugin.json           # Plugin metadata
 ├── commands/                 # Custom slash commands (optional)
