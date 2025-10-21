@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ -f \"$CLAUDE_PROJECT_DIR/package.json\" ] && grep -q '\"lint\"' \"$CLAUDE_PROJECT_DIR/package.json\"; then cd \"$CLAUDE_PROJECT_DIR\" && npm run lint -- --fix || exit 2; fi",
+            "timeout": 120,
+            "description": "Auto-run ESLint fix after file modifications"
+          }
+        ]
+      }
+    ]
+  }
+}
