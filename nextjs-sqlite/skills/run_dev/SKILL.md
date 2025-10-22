@@ -1,6 +1,6 @@
 ---
 name: run_dev
-description: 動作検証のために開発サーバーを起動・停止します。既に起動している場合は再起動します。検証完了後は必ずサーバーを停止してください。
+description: 開発サーバーを起動 (npm run dev) します。既に起動している場合は再起動します。動作確認をしたいときに使ってください。
 allowed-tools: Bash, Read, Grep
 ---
 

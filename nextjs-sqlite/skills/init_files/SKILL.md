@@ -1,6 +1,6 @@
 ---
 name: init_files
-description: Initialize project with Next.js + SQLite configuration files
+description: "Create CLAUDE.md and related files when CLAUDE.md does not exist"
 ---
 
 # Init Files Skill

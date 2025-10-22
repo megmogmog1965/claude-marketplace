@@ -1,6 +1,6 @@
 ---
 name: update-prisma-schema
-description: Prisma で定義された DB Schema の修正変更と、マイグレーション適用を実行します。データベーススキーマの変更が必要なときに使用してください。
+description: Prisma で定義されたデータベーススキーマ (schema.prisma) の修正変更と、マイグレーション適用を実行します。データベーススキーマ (schema.prisma) の変更が必要なときに使用してください。
 allowed-tools: Read, Edit, Bash, Grep, Glob
 ---
 
