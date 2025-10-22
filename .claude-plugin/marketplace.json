@@ -7,7 +7,7 @@
     {
       "name": "nextjs-sqlite",
       "source": "./nextjs-sqlite",
-      "description": "My first test plugin"
+      "description": "Next.js + SQLite development."
     }
   ]
 }

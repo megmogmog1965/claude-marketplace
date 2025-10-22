@@ -9,6 +9,7 @@
 .session-summary.md
 .pair-programming-session.md
 .state/
+.claude/
 
 # Dependencies
 node_modules/
