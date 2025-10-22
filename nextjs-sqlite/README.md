@@ -80,14 +80,14 @@ nextjs-sqlite/
 
 ### Agent Skills
 
-Claude Agent に実行させたい処理を定義します。
+Claude Agent に実行させたい一連の処理（能力, Subroutine）を定義します。
 
 - update-req (❌️未実装)
     - 実装計画書の変更内容に基づいて、要件定義書の記述に不足があれば（開発工程を戻って）追記修正します。
 - update-prisma-schema
     - Prisma で定義された DB Schema の修正変更と、マイグレーション適用を実行します。
 - run_dev
-    - 開発環境を起動します。
+    - 開発環境を起動します。既に起動していれば再起動するし、終わったらきちんと後片付けもします。
 
 ### Hooks
 
