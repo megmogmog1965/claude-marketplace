@@ -18,7 +18,7 @@ Next.js + SQLite アーキテクチャでの開発を支援する Claude Code �
 ## マーケットのインストール
 
 ```bash
-/marketplace add megmogmog1965/claude-marketplace
+/plugin marketplace add https://github.com/megmogmog1965/claude-marketplace
 ```
 
 ## プラグインのインストール
