@@ -1,5 +1,6 @@
 ---
 description: Initialize Next.js + SQLite project with Claude Code configuration files
+allowed-tools: Bash
 ---
 
 # Init Command
