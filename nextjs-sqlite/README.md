@@ -59,7 +59,7 @@ nextjs-sqlite/
             - architecture.md（利用技術・アーキテクチャ指定）
             - test-rule.md（ユニットテストコード生成のルール）
             - ui-design-rule.md（フロントエンドコード、UIデザインのルール）
-- /req
+- /req (❌️未実装)
     - 要件定義書の作成を開始する Slash command です。
 - /spec
     - 実装計画書の作成を開始する Slash command です。引数に要件定義書の要件定義番号を入力します。
@@ -82,7 +82,7 @@ nextjs-sqlite/
 
 Claude Agent に実行させたい処理を定義します。
 
-- update-req
+- update-req (❌️未実装)
     - 実装計画書の変更内容に基づいて、要件定義書の記述に不足があれば（開発工程を戻って）追記修正します。
 - update-prisma-schema
     - Prisma で定義された DB Schema の修正変更と、マイグレーション適用を実行します。
