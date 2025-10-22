@@ -5,7 +5,7 @@ Claude Code向けのプラグインマーケットプレイスです。
 ## マーケットのインストール
 
 ```bash
-/marketplace add megmogmog1965/claude-marketplace
+/plugin marketplace add https://github.com/megmogmog1965/claude-marketplace
 ```
 
 ## プラグインのインストール
