@@ -13,3 +13,8 @@ Claude Code向けのプラグインマーケットプレイスです。
 ```bash
 /plugin install nextjs-sqlite
 ```
+
+
+## Plugins
+
+* [nextjs-sqlite](nextjs-sqlite/)
